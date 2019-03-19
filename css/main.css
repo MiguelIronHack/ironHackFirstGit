@@ -24,18 +24,18 @@ body {
 .list {
   padding-left: 1rem;
 }
-ul > * {
+.ul > * {
   list-style-type: none;
   counter-increment: step-counter;
 }
-ul > *:before {
+.ul > *:before {
   content: ' - ';
 }
-ol > * {
+.ol > * {
   list-style-type: none;
   counter-increment: step-counter;
 }
-ol > *:before {
+.ol > *:before {
   content: counter(step-counter) ') ';
 }
 .cook-img {
